@@ -1,0 +1,122 @@
+body {
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif;
+    max-width: 990px;
+}
+
+h1 {
+    font-family: "Pridi",serif;
+    font-size: 2em;
+    color: rgb(88, 46, 145);
+}
+
+h2 {
+    color: rgb(132, 164, 11);
+    font-weight: normal;
+}
+
+a {
+    color: rgb(0, 105, 144);
+}
+
+a:hover {
+    color: rgb(237, 119, 3);
+}
+a:active {
+    color: inherit;
+    background: #ffbf47;
+    outline: 2px solid #ffbf47;
+}
+
+.main-header h1 {
+    margin: 0;
+    line-height: 1;
+    color: #fff;
+    font-size: 4em;
+}
+.main-header h2 {
+    font-size: 2em;
+    font-weight: bolder;
+    color: #fff;
+}
+.main-header {
+    text-align: center;
+    position: relative;
+    height: 450px;
+    background-image: url(../images/volunteer_wide.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(88, 46, 145);
+    background-position: top;
+    color: #fff;
+}
+.main-header header {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.main-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(88, 46, 145, 0.7);
+    z-index: 1;
+
+}
+
+.main-header .logo-fleurdelis {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;  
+}
+
+.main-footer {
+    border: 1px solid rgb(65, 90, 104);
+    box-sizing: border-box;
+    padding: 0 30px;
+    background-color: rgb(65, 90, 104);
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.main-body {
+    margin: 40px;
+}
+
+.cards:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.card {
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+
+.center-text {
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    
+    .main-header h1 {
+        font-size: 2em;
+    }
+    
+    .card {
+        float: none;
+        width: 100%;
+    }
+    
+}
