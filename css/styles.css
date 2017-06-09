@@ -4,9 +4,12 @@ body {
 }
 
 h1 {
+    line-height: 1;
+    margin: 1em 0;
     font-family: "Pridi",serif;
     font-size: 2em;
     color: rgb(88, 46, 145);
+    
 }
 
 h2 {
@@ -100,16 +103,16 @@ a:active {
     z-index: 2;  
 }
 
+.main-body {        
+    margin: 40px;
+}
+
 .main-footer {
     box-sizing: border-box;
     padding: 10px 30px;
     background-color: rgb(65, 90, 104);
     color: #fff;
     font-size: 0.6em;
-}
-
-.main-body {
-    margin: 40px;
 }
 
 .cards:after {
@@ -137,10 +140,20 @@ a:active {
 }
 
 @media (max-width: 700px) {
+    .main-body {        
+        margin: 40px 15px;
+    }
+    .main-header nav a {
+        font-size: 0.8em;
+        padding: 10px 10px;
+    }
     
     .card {
         float: none;
         width: auto;
+    }
+    .section-logo {
+        height: 60px;
     }
     
 }
