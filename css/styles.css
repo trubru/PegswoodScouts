@@ -140,7 +140,7 @@ a:active {
 }
 
 @media (max-width: 740px) {
-    * {color: red;}
+    
     .main-body {        
         margin: 40px 15px;
     }
