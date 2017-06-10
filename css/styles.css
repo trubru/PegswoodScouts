@@ -145,6 +145,11 @@ a:active {
         margin: 40px 15px;
     }
     
+    .main-header header {
+        
+top: 100px;
+        }
+    
     .main-header {
         height: 300px;
     }
