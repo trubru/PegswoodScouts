@@ -145,6 +145,10 @@ a:active {
         margin: 40px 15px;
     }
     
+    .main-header {
+        height: 300px;
+    }
+    
     .main-header nav a {
         font-size: 0.8em;
         padding: 10px 10px;
