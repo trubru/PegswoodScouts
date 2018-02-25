@@ -8,8 +8,7 @@ h1 {
     margin: 1em 0;
     font-family: "Pridi",serif;
     font-size: 2em;
-    color: rgb(88, 46, 145);
-    
+    color: rgb(88, 46, 145);    
 }
 
 h2 {
@@ -138,6 +137,15 @@ a:active {
     margin: 15px 0;
     width: 100px;
 }
+.volunteer {
+    border-top: 5px solid rgb(88, 46, 145);
+    background-image: url(../images/Bear1-307x400.jpg);
+    background-position: left top 2em;
+    background-repeat: no-repeat;
+    margin: 2em 0;
+    padding-top: 1em;
+    padding: 0 0 0 40%;
+}
 
 @media (max-width: 740px) {
     
@@ -146,9 +154,8 @@ a:active {
     }
     
     .main-header header {
-        
-top: 100px;
-        }
+        top: 100px;
+    }
     
     .main-header {
         height: 300px;
